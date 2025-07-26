@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Manfaat Jalan Kaki 30 Menit</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      margin: 20px;
+      color: #333;
+    }
+    header {
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    form {
+      margin-top: 20px;
+      background: #e6f7ff;
+      padding: 15px;
+      border-radius: 5px;
+    }
+    .highlight {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Manfaat Jalan Kaki 30 Menit Setiap Hari</h1>
+  <img src="image/jalan-kaki.jpeg" width="500" height="500"/>
+</header>
+
+<section>
+  <p>
+    Jalan kaki selama <b>30 menit setiap hari</b> memiliki <span class="highlight">beragam manfaat</span> bagi kesehatan. 
+    Aktivitas ringan ini bisa menjadi <i>investasi terbaik</i> untuk tubuh dan pikiran Anda.
+  </p>
+
+  <p>
+    Menurut <a href="https://www.who.int/" target="_blank">WHO</a>, aktivitas fisik sederhana seperti berjalan kaki dapat membantu mencegah berbagai penyakit kronis.
+  </p>
+
+  <h2>Manfaat Utama</h2>
+  <ul>
+    <li>Meningkatkan kesehatan jantung</li>
+    <li>Membantu menurunkan berat badan</li>
+    <li>Memperkuat otot dan tulang</li>
+    <li>Mengurangi stres dan kecemasan</li>
+    <li>Memperbaiki kualitas tidur</li>
+  </ul>
+
+  <h2>Perbandingan Aktivitas</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Aktivitas</th>
+        <th>Kalori Terbakar (30 menit)</th>
+        <th>Level Intensitas</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jalan kaki santai</td>
+        <td>120</td>
+        <td>Rendah</td>
+      </tr>
+      <tr>
+        <td>Jogging ringan</td>
+        <td>240</td>
+        <td>Sedang</td>
+      </tr>
+      <tr>
+        <td>Lari cepat</td>
+        <td>400</td>
+        <td>Tinggi</td>
+      </tr>
+    </tbody>
+  </table>
+
+<h2>audio</h2>
+<audio controls>
+  <source src="audio/Milky Wayvers-Mountain-(freetouse.com).mp3" type="audio/mpeg">
+  Browser Anda tidak mendukung pemutar audio.
+</audio>
+
+<h2>Video manfaat jalan kaki 30 Menit</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PhWG6lkXty0?si=8CTQeLfCt4197Twx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+  <h2>Bagikan Pengalaman Anda</h2>
+  <form onsubmit="return validateForm()">
+    <label for="nama">Nama:</label><br>
+    <input type="text" id="nama" name="nama" required><br><br>
+
+    <label for="komentar">Komentar:</label><br>
+    <textarea id="komentar" name="komentar" rows="4" cols="40" required></textarea><br><br>
+
+    <input type="submit" value="Kirim">
+  </form>
+</section>
+
+<script>
+  function validateForm() {
+    const nama = document.getElementById("nama").value;
+    const komentar = document.getElementById("komentar").value;
+    if (!nama || !komentar) {
+      alert("Harap isi semua kolom!");
+      return false;
+    }
+    alert("Terima kasih atas komentarnya, " + nama + "!");
+    return true;
+  }
+</script>
+
+</body>
+</html>
